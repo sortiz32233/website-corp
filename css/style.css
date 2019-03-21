@@ -1,0 +1,187 @@
+/*
+Nombre del sitio: Corporativo Robles Payan y Asociados 2013
+URL del sitio: http://corporativo-roblespayan.com
+Autor(es): Paul Cristerna, David Gastelum
+Descripción: El sitio Corporativo Robles Payan y Asociados 2013 es un diseño sofisticado, limpio y profesional diseñado para la difusión de la informacion de dicha empresa.
+Version: 1.0
+*/
+
+/** header **/
+body{
+	background: #eee;
+}
+
+h3{
+	margin-top: -8px;
+}
+
+/** informacion **/
+.informacion-banner{
+	margin-top:20px;
+}
+
+.member-corp{
+	background: url(../img/banner_image1.png) no-repeat;
+	background-position: right bottom;
+	height:333px;
+	width: 418px;
+}
+
+.limpiar{
+	clear: both;
+}
+
+.servicios{
+	background: #38303f;
+	color:#fff;
+	padding:30px 0px 30px;
+}
+
+.servicios p{
+	/*text-align: justify;*/
+}
+
+.servicios h1{
+	font-size:30px;
+	margin-top:12px;
+}
+
+/* iconos de la pagina principal */
+.home-icon, .check-icon, .point-icon, 
+.graph-icon, .proyection-icon, .contact-icon{
+	margin-top:15px;
+	height: 200px;
+	width: 35px;
+}
+
+.home-icon{	
+	background: url(../img/home-icon.png) no-repeat;
+}
+
+.check-icon{	
+	background: url(../img/check-icon.png) no-repeat;
+}
+
+.point-icon{	
+	background: url(../img/point-icon.png) no-repeat;
+}
+
+.graph-icon{	
+	background: url(../img/graph-icon.png) no-repeat;
+}
+
+.proyection-icon{	
+	background: url(../img/proyection-icon.png) no-repeat;
+}
+
+.contact-icon{	
+	background: url(../img/contact-icon.png) no-repeat;
+}
+
+.phone-icon{
+	background: url(../img/phone-icon.png) no-repeat;
+	height: 15px;
+	margin-right:5px;
+	width: 15px;
+}
+
+.individual{
+	background: #fff;
+	padding:20px;	
+}
+
+.individual p{
+	/*text-align: justify;*/
+}
+
+.titulo-principal{
+	margin-bottom:-20px;
+}
+
+.imagen-individual{
+	margin: 5px 0px 5px 30px;
+}
+
+.titulo-1{
+  color:#697281;
+  font-size: 30px;
+  margin-bottom: -1px; 
+}
+
+.titulo-2{  
+  color:#c17015;
+  font-size: 43px;
+  margin-top: -1px; 
+}
+
+.titulo-informacion{
+	color: #c17015;
+}
+
+.informacion{
+	font-size:1.2em;
+}
+
+iframe{
+	margin-right: 10px; 
+}
+
+p.texto{
+	padding-top:10px;
+}
+
+img.thumbnail{
+	height: 100px;
+	margin:0px 10px;
+	width: 100px
+}
+
+.importante{
+	color: #FE2E2E;
+}
+
+.seccion{
+	padding-top:5px;
+}
+
+span.difuminar, span.tel, span.correo{
+	color:#585858;
+}
+
+hr.principal{
+	border-top: 1px solid #dcdada;
+}
+
+ul{
+	margin-left:40px;
+}
+
+ul.lista-marcas{
+	list-style-image: url("../img/check.png");
+}
+
+ul.lista-asteriscos{
+	list-style-image: url("../img/asterisk.png");
+}
+
+/** footer **/
+.footer-sitio{
+	background: #231e27;
+	color:#fff;
+	padding:20px 0px 3px;
+}
+
+.footer-sitio a{
+	color:#fff;
+}
+
+.titulo-copyright{
+	text-align: right;
+}
+
+.logo-corporativo-icon{
+	background: url("../img/logo-corporativo-icon.png") no-repeat;
+	height: 40px;
+	margin-left: 5px;
+	width: 40px;
+}
